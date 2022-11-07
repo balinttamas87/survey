@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "lint": "eslint . --ext .ts,.tsx",
     "lint-and-fix": "eslint . --ext .ts,.tsx --fix",
-    "prettier-format": "prettier --config .prettierrc \"src/**/*.{ts,tsx}\" --write"
+    "prettier-format": "prettier --config .prettierrc \"src/**/*.{ts,tsx}\" --write",
+    "prepare": "husky install"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -26,6 +27,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.7.1",
     "typescript": "^4.6.4",
-    "vite": "^3.2.3"
+    "vite": "^3.2.3",
+    "husky": "^8.0.0"
   }
 }
